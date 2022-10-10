@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8"/>
+		<title>Dla kochających Yerba Mate!</title>
+		<meta name="description" content="Oto strona poswięcona w 100% yerba mate i elementom z nią związanym. Idealna dla osób kochających i żyjących tym napojem "/>
+		<meta name="keywords" content="napój, yerba, mate, herbata, ziółka, kofeina"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chroma=1"/>
+		<link rel="stylesheet" href="HiHstyle.css" type="text/css">
+		<link rel="stylesheet" href="css/fontello.css" type="text/css">
+		<script src="HiHjava.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Lato:400,900&display=swap&subset=latin-ext" rel="stylesheet">
+		<script  src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<script>
+		$(document).ready(function()
+		{
+			$("#a").click(function()
+			{
+				$("main").css("background-color", "yellow");
+			})
+			$("#b").click(function()
+			{
+				$("main").css("background-color", "white");
+			})
+			$("#c").click(function()
+			{
+				$("main").css("background-color", "lightgreen");
+			})
+		})
+		$(function() 
+		{
+            $( "#dialog" ).dialog({
+               autoOpen: false,  
+            });
+            $( "#d" ).click(function() {
+               $( "#dialog" ).dialog( "open" );
+            });
+        });
+		</script>
+	</head>
+	<body onload="wczytaj(),wczytaj2()">
+		<div id="container">
+			<div id="logo">
+				Dla kochających Yerba Mate!
+			</div>
+			<aside>
+				<nav>
+					<ol>
+						<li><a href="HiHakcesoria.html">Akcesoria</a></li>
+						<li><a href="HiHhistoria.html">Historia</a></li>
+						<li><a href="#">Wpływ na zdrowie</a></li>
+						<li><a href="#">Marki</a></li>
+						<li><a href="HiHgaleria.html">Galeria</a></li>
+						<li><a href="HiHankieta.html">Ankieta</a></li>
+					</ol>
+					<div style="clear: both;"></div>
+				</nav>
+			</aside>
+			<div id="cytat">
+			<h3>
+				Wszystko co musisz wiedzieć o Yerba Mate, a nawet więcej...
+			</h3>
+			<h5>
+				"Gdzie czujesz yerbę, tam wchodź, tam dobre serca mają, źli ludzie, wierzaj mi, Ci nigdy jej nie pijają."
+			</h5>
+			</div>
+			<div id="animation-bar">
+				YERBA MATE
+			</div>
+			<div id="main">
+				<button id="d">KLIKNIJ!</button>
+				<h2>Dlaczego Yerba?</h2>
+				Ten wspaniały napój wzmacnia naszą odporność i poprawia siły witalne. 	Szczególnie sprawdza się to w okresie jesienno-zimowym. Właśnie wtedy najczęściej chorujemy. Szczególnie poleca się picie yerba mate w okresie zachorowań na grypę. To wspaniała mieszanka, która pozwala nam uniknąć L4. Po co rezygnować z wyjazdu na narty, skoro możemy zadbać o swoją odporność.
+				<br/><br/>
+				W 2008 roku ujawniono wyniki badań, które zostały przeprowadzone na myszach. Wynika z nich, że regularne picie yerba mate zwiększa odporność nici DNA. Także efektywność procesu naprawy DNA zwiększa się po ekspozycji komórek wątroby do nadtlenku wodoru. Bez względu na przyjmowane dawki yerba mate.
+				<br/><br/>
+				<div id="dialog">
+				Przyciskami poniżej możesz zmieniać tło tego akapitu!
+				</div>
+				<button id="a">Żółty</button>
+				<button id="c">Jasnozielony</button>
+				<button id="b">Biały</button>
+			</div>
+			<div id="lokal">
+				Wprowadź wybrany kolor tekstu (po angielsku):
+				<input type="text" id="pole"/>
+				<input type="submit" value="Zmień na stałe" onclick="zmien()"/>
+				<input type="text" id="pole2"/>
+				<input type="submit" value="Zmień na teraz" onclick="zmien2()"/>
+			</div>
+			<div id="java">
+				<strong>Jak przygotować Yerbe:</strong>
+			</div>
+			<div id="dojavy">
+				<button id="guz" onclick="myFunction()">Pokaż!</button>
+				<br/><br/>
+				<br/><br/>
+				<button id="guz2" onclick="removeLi()">Zamknij!</button>
+				<br/><br/>
+			</div>
+			<div class="tiles">
+			<div id="tile1">
+				<a href="https://www.youtube.com/channel/UCp45pfyCgkrx-chHkVcGChg" target="_blank" title="Sprawdź najlepszy kanał o Yerbie!">
+				<i class="icon-youtube-play"></i></a>
+			</div>
+			<div id="tile2">
+						<a href="https://www.instagram.com/explore/tags/yerbamate/" target="_blank" title="Odwiedź najlepszy instagramowy profil o Yerbie!">
+						<i class="icon-instagram"></i></a>
+			</div>
+			<div id="tile3">
+						<a href="https://www.facebook.com/yerbamatestore/photos/a.363821656240/10157581028146241/?type=3&theater" target="_blank" title="Sprawdź yerbowego facebook'a!">
+						<i class="icon-facebook-squared"></i></a>
+			</div>
+			</div>
+			<div style="clear:both;"></div>
+			<div id="tile4">
+				<a class="right" href='#logo' title="Wróc do góry">
+				<i class="icon-up-circled"></i></a>	
+			</div>
+			<footer>
+				Poznaj Yerbę - napój posiadający wiele wspaniałych właściwości. Strona w sieci od 2019r. &copy; Wszelkie prawa zastrzeżone.
+			</footer>
+		</div>
+	</body>
+</html>

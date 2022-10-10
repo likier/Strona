@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Dla kochających Yerba Mate!</title>
+		<meta name="description" content="Oto strona poswięcona w 100% yerba mate i elementom z nią związanym. Idealna dla osób kochających i żyjących tym napojem "/>
+		<meta name="keywords" content="napój, yerba, mate, herbata, ziółka, kofeina"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chroma=1"/>
+		<link rel="stylesheet" href="HiHstyle.css" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Lato:400,900&display=swap&subset=latin-ext" rel="stylesheet"> 
+		<script  src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<script>
+		$( function() 
+		{
+			$( "#dialog1" ).dialog();
+		} );
+		</script>
+	</head>
+	<body>
+		<div id="dialog1">
+		Proszę, wypełnij szczerze poniższą ankietę :)
+		</div>
+		<div id="ankieta">
+			<h1>Ankieta</h1>
+			<form action="/action.php">
+			Imię: 
+				<input id="imie" type="text" name="name" value="Proszę, wprowadź imię"><br/><br/>
+			Wiek:
+				<input id="wiek" type="text" name="wiek" value="Proszę, podaj wiek"><br/><br/>
+			Płeć:
+				<label for="male">Mężczyzna</label>
+				<input type="radio" name="gender" id="male" value="male" >
+				<label for="female">Kobieta</label>
+				<input type="radio" name="gender" id="female" value="female" checked><br/><br/>
+			Jak często pijesz Yerbę?<br/>
+				<label for="Codziennie" style="font-size:28px;margin-left:3%">Codziennie</label>
+				<input type="radio" name="czestosc" id="Codziennie" value="codziennie" ><br/> 
+				<label for="4-5_razy_na_tydzień" style="font-size:28px;margin-left:3%">4-5 razy na tydzień</label>
+				<input type="radio" name="czestosc" id="4-5_razy_na_tydzień" value="4-5_razy_na_tydzień" checked><br/>
+				<label for="2-3_razy_na_tydzień" style="font-size:28px;margin-left:3%">2-3 razy na tydzień</label>
+				<input type="radio" name="czestosc" id="2-3_razy_na_tydzień" value="2-3_razy_na_tydzień" checked><br/>
+				<label for="Bardzo_rzadko" style="font-size:28px;margin-left:3%">Bardzo rzadko</label>
+				<input type="radio" name="czestosc" id="Bardzo_rzadko" value="Bardzo_rzadko" checked ><br/><br/>
+			Yerbę o jakim smaku lubisz pić?</br>
+				<label for="Klasyczny" style="font-size:28px;margin-left:3%">Klasyczny</label>
+				<input type="checkbox" name="taste" id="clasic" value="clasic" ></br>
+				<label for="Owocowy" style="font-size:28px;margin-left:3%">Owocowy</label>
+				<input type="checkbox" name="taste" id="fruit" value="fruit"></br>
+				<label for="green_tea" style="font-size:28px;margin-left:3%">Zielonej Herbaty</label>
+				<input type="checkbox" name="taste" id="green_tea" value="green_tea"></br></br>
+			Wybierz swoją ulubioną markę sprzedajacą yerbę (przytrzymaj "Ctrl" by wybrać więcej niż jedną pozycję):</br>
+				<select name="cars" size="2" multiple>
+					<option value="Laranjeiras Chimarrao">Laranjeiras Chimarrao</option>
+					<option value="Oranżada">Oranżada</option>
+					<option value="Naranja">Naranja</option>
+				</select>
+				<br><br>
+			Jak podoba Ci się strona w skali 1-10?<br/>
+				<select name="wybor">
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+					<option>6</option>
+					<option>7</option>
+					<option>8</option>
+					<option>9</option>
+					<option>10</option>
+				</select><br/></br>
+				<textarea name="message" rows="20" cols="40">Miejsce na własne uwagi, pomysły.</textarea></br></br>
+				<input id="submit" type="submit" value="Wyślij"  style="margin-left:450px;">
+				<input id="submit2" type="reset" value="Wyczyść">
+			</form>
+		</div>
+		<div id="cofnij">
+		<a href="HiHindex.html" style="text-decoration:none;color:black">Powrót</a>
+		</div>
+	</body>
+</html>

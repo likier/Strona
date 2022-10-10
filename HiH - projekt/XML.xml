@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="XSLT.xslt"?>
+<yerba>
+	<cytat>
+	</cytat>
+	<composition>
+		<compound category="chemistry">
+			<name lang="pl">Acenaften</name>
+			<amount unit="ng/l">426.3</amount>
+			<kind>Toksyczny</kind>
+		</compound>
+		<compound category="chemistry">
+			<name lang="pl">Fenantren</name>
+			<amount unit="ng/l">347.5</amount>
+			<kind>Toksyczny</kind>
+		</compound>
+		<compound category="chemistry">
+			<name lang="pl">Naftalen</name>
+			<amount unit="ng/l">96.5</amount>
+			<kind>Toksyczny</kind>
+		</compound>
+		<compound category="chemistry">
+			<name lang="pl">Fluoranten</name>
+			<amount unit="ng/l">61.4</amount>
+			<kind>Toksyczny</kind>
+		</compound>
+		<compound category="chemistry">
+			<name lang="pl">Piren</name>
+			<amount unit="ng/l">59.1</amount>
+			<kind>Toksyczny</kind>
+		</compound>
+	</composition>
+	
+	<yerbastore>
+		<element notion="infusion">
+			<brand>Naranja</brand>
+			<price currency="zloty">33</price>
+			<taste>Owocowe,z dodatkami</taste>
+			<quality>Bardzo dobra</quality>
+			<package material="paper">Torebka papierowa</package>
+		</element>
+		<element> 
+			<brand>Laranjeiras Chimarrao</brand>
+			<price currency="zloty">27</price>
+			<taste>Klasyczna</taste>
+			<quality>Średnia</quality>
+			<package material="paper">Torebka papierowa</package>
+		</element>
+		<element>
+			<brand>Oranżada</brand>
+			<price currency="zloty">30</price>
+			<taste>Zielona herbata</taste>
+			<quality>Bradzo dobra</quality>
+			<package material="plastic">Plastikowa puszka</package>
+		</element>
+	</yerbastore>
+	
+	<history times="middle_ages">
+		<begin>
+		Historia popularności napoju sięga połowy XVII wieku, kiedy to w zamieszkane przez plemię Guarani dorzecza Parany dotarli misjonarze jezuiccy. Odkryli oni, że ulubioną używką miejscowych były liście pewnego gatunku wiecznie zielonego krzewu nazwanego później ostrokrzewem paragwajskim. Ich żucie likwidowało zmęczenie, rozjaśniało umysł i łagodziło uczucie głodu. Napary z ziela doprawiane były niekiedy poprzez dodawanie słodkich liści stewii.
+		Jezuici doceniwszy zalety napoju przyrządzonego ze sproszkowanych liści i pędów, rozpropagowali go w Europie jako alternatywę sprowadzanej z Azji herbaty. Założone przez nich plantacje były głównym źródłem dochodu redukcji misyjnych aż do kasaty Zakonu w 1773 roku. Po tym wydarzeniu plantacje odeszły w niepamięć, aż do roku 1892, kiedy to pierwszą swoją hodowlę założył w Paragwaju Frederico Neumann. Ponownie rozpowszechnił on yerba mate tak, że stała się ona narodowym napojem Paragwaju, Argentyny, Urugwaju i Brazylii.
+		</begin>
+	</history>
+	
+	<health theme="obesity">
+		<solution>
+		Otyłość staje się coraz większym problemem w wielu krajach, przez co przeprowadza się obecnie badania mające na celu powstrzymanie tej epidemii. W kwestii chudnięcia i kontroli wagi wykazano potencjalny efekt Mate, co poparły bieżące badania. Otyli mężczyźni i kobiety spożywający yerba mate wykazali obniżony współczynnik oddechowy (respiratory quotient, RQ), wskazując na zwiększenie poziomu utleniania tłuszczów. Ziołowy napar z yerba mate, guarany i damiany wykazał drastyczne spowolnienie opróżniania żołądka, jak i zmniejszenie czasu potrzebnego do osiągnięcia poczucia sytości. Po 45 dniach następowało znaczące obniżenie wagi u pacjentów z nadwagą. Yerba mate wykazała swój potencjał przy odchudzaniu i rozważa się jej użycie jako suplementu diety. Dodawanie składników takich, jak yerba mate, guarana do suplementów okazało się skuteczne w zmniejszaniu wagi.
+		</solution>
+	</health>
+	
+	<legend kind="myth">
+		<story>
+		Legenda głosi, że Boginie Księżyca i Chmury przybyły zwiedzić Ziemię. Znalazły tam jaguara, który chciał je zaatakować. Zostały jednak uratowane przez starca, który w podzięce dostał nowy rodzaj rośliny, z którego może przygotować „napar przyjaźni”.
+		</story>
+	</legend>
+	
+	<media>
+		<image src="img/ob1.jpg">Yerba</image>
+		<image src="img/ob5.jpg">Słomka "Bombilla"</image>
+		<image src="img/ob4.jpg">Picie Yerby</image>
+	</media>
+	
+	<links>
+		<link source="https://www.yerbamarket.com/">Sklep z yerba</link>
+		<link source="https://www.poyerbani.pl/">Kolejny sklep z yerba</link>
+		<link source="https://dobreziele.pl/">I jeszcze jeden</link>
+	</links>
+	
+	<author>
+		<name>Łukasz</name>
+		<surname>Licznar</surname>
+	</author>
+	
+</yerba>
